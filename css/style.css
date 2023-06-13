@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+
+    height: 850px;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+}
+
+p {
+    color: rgb(72, 71, 71);
+
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: #563434;
+    color: #fff;
+}
+
+header .row {
+    margin-top: 70px;
+}
+
+
+.title {
+    text-align: center;
+    margin: 0 auto 60px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+
+}
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 140px;
+    height: 7px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    transform: translateX(-50px);
+}
+
+.rateing .fa {
+    color: #ff523b;
+}
+
+.row.custom-gutter>[class^="col-md-3"] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.testimonial {
+    padding: 80px;
+
+}
+
+.testimonial img {
+    width: 50px;
+
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+
+.fa.fa-quote-left {
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
